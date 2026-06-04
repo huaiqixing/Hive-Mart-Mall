@@ -1,0 +1,47 @@
+{
+  "name": "hive-mart-mall",
+  "version": "1.0.0",
+  "description": "Hive Mart PC 商城前端",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev-server": "vite --mode dev",
+    "build:local": "vite build",
+    "build:dev": "vite build --mode dev",
+    "build:prod": "vite build --mode prod",
+    "preview": "vite preview",
+    "ts:check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.11.1",
+    "lodash-es": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "qs": "^6.12.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.11.21",
+    "@types/nprogress": "^0.2.3",
+    "@types/qs": "^6.9.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.69.5",
+    "terser": "^5.28.1",
+    "typescript": "^5.3.3",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^5.1.4",
+    "vue-tsc": "^1.8.27"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.6.0"
+  }
+}
