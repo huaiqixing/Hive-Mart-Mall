@@ -431,6 +431,8 @@ async function handleSubmitOrder() {
       remark: remark.value || undefined,
       pointStatus: false
     })
+    // 下单后刷新购物车，清除已结算的商品
+    await cartStore.getList()
     // 跳转到支付页面
     if (res.payOrderId) {
       router.push(`/payment/${res.id}`)
